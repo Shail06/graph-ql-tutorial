@@ -1,0 +1,27 @@
+{
+  "name": "graph-ql",
+  "version": "1.0.0",
+  "description": "1. The project aims to construct the Graph QL server using `node-js`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shail06/graph-ql-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shail06/graph-ql-tutorial/issues"
+  },
+  "homepage": "https://github.com/Shail06/graph-ql-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.0"
+  }
+}
