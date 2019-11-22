@@ -22,4 +22,25 @@
 
  9. The `resolve()` function gets the data for a given query inside Root Query.
 
- 10.
+ 10. The server can be run using `nodemon` 
+        
+        `npm install nodemon`
+
+        `nodemon app`
+        
+The `GraphiQL` runs on the `http://localhost:4000/graphql`
+and following query gets the result
+
+```   
+{
+  author(id: 1){
+    name
+    age
+  }
+}
+```
+
+ 10. Defining the relationship between Objects requires using the Object type as the field in other object i.e. COMPOSITION.
+    For e.g. 
+    In here the Objects `BookType` and `AuthorType` are linked by defining the respective fields inside of each others definition.
+    In the Data ( Arrays ), the `books` contain `authorId` to define linkage.
