@@ -40,7 +40,18 @@ and following query gets the result
 }
 ```
 
- 10. Defining the relationship between Objects requires using the Object type as the field in other object i.e. COMPOSITION.
+ 11. Defining the relationship between Objects requires using the Object type as the field in other object i.e. COMPOSITION.
     For e.g. 
     In here the Objects `BookType` and `AuthorType` are linked by defining the respective fields inside of each others definition.
     In the Data ( Arrays ), the `books` contain `authorId` to define linkage.
+
+  12. MongoDB database used from https://cloud.mongodb.com/user#/atlas/login
+
+  13. `mongoose` is the npm ORM package to connect to MongoDB and interact with it.
+      `npm install mongoose`
+  
+  14. Once the mongo db connection is made, the way to store data in MongoDB is through creating Object Models of our application.
+
+  15. `server > models` contains the two files -> `book.js` & `author.js` that define the model of data defined inside our database.
+
+  16. 
