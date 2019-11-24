@@ -75,4 +75,8 @@ For. e.g Here, BookList.js component can be imported in App.js as
 and used as
 ``` <BookList/> ```
 
- 
+ 7. A graphQL client called `Apollo` can be used to manage all the data exchange from `react` app and `graphql-express` server
+
+ 8. Apollo client can be installed from website -> https://www.apollographql.com/docs/react/get-started/
+
+      ``` npm install apollo-boost @apollo/react-hooks graphql ```
