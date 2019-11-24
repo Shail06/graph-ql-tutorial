@@ -57,6 +57,7 @@ and following query gets the result
 
   ## FRONT END
 
+![front-end-framework](docs/front-end-framework.png)
   1. GraphQL is not actually Javascript. So, to bind the GraphQL to Javascript framework `react`, a graphQL client called `Apollo` is used.
 
   2. A new `react` app can be created from facebook project -> https://github.com/facebook/create-react-app
