@@ -1,5 +1,6 @@
 # GraphQL-Tutorial
 
+## BACK END
 1. The project aims to construct the Graph QL server using `node-js`
 
 2. Query graphQL server from front end made using a `react` app.
@@ -54,4 +55,23 @@ and following query gets the result
 
   15. `server > models` contains the two files -> `book.js` & `author.js` that define the model of data defined inside our database.
 
-  16. 
+  ## FRONT END
+
+  1. GraphQL is not actually Javascript. So, to bind the GraphQL to Javascript framework `react`, a graphQL client called `Apollo` is used.
+
+  2. A new `react` app can be created from facebook project -> https://github.com/facebook/create-react-app
+      ```
+      npm install create-react-app -g
+      ```
+3.  Create a new app inside project ``` create-react-app client ```
+4. Inside the `client` directory, ``` npm start ``` will start the development server at http://localhost:3000/
+
+5. Inside `client > src`, some modifications were made to simplify the front-end. A new `components` directory created that contains all the individual components. 
+
+6. A component can be imported and used as tag inside any other JS file.
+For. e.g Here, BookList.js component can be imported in App.js as
+``` import BookList from './components/BookList'; ```
+and used as
+``` <BookList/> ```
+
+ 
