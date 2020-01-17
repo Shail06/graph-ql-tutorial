@@ -53,6 +53,20 @@ and following query gets the result
   
   14. Once the mongo db connection is made, the way to store data in MongoDB is through creating Object Models of our application.
 
+  Mutations can be used to create data in MongoDB. For example:
+  ```
+  mutation{
+  addBook(name:"B3", genre:"G2", authorId: "5e20a6f1dc06f1728c3b2e7b"){
+    name
+    genre
+    author{
+      name
+      age
+    }
+  }
+}
+  ```
+
   15. `server > models` contains the two files -> `book.js` & `author.js` that define the model of data defined inside our database.
 
   ## FRONT END
