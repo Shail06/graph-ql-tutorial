@@ -5,7 +5,7 @@ const mongo = require('mongoose'); // Connectivity to MongoDB as database
 
 const app = express();
 
-mongo.connect('mongodb+srv://admin:admin@cluster0-xdtfh.azure.mongodb.net/test?retryWrites=true&w=majority')
+mongo.connect('mongodb+srv://admin:admin@cluster0-ipkhx.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 mongo.connection.once('open', ()=> {
     console.log('Connected to Mongo DB!');
